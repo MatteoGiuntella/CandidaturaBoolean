@@ -1,0 +1,66 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 2200px 1000px;
+}
+/* problemi con le dimensioni dello sfondo ho dovuto ricalibrare le dimensioni */
+.container{
+  width: 1030px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+#logo{
+  width: 250px;
+  margin-left: 400px;
+  padding-top: 100px;
+}
+#title{
+  color: #00CD00;
+  text-align: center;
+}
+.checkbox{
+  background-color: #00CD00;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.Opzione{
+  margin-left: 100px;
+}
+.proprietario{
+  display: inline-block;
+  font: bold;
+}
+span, p {
+  color:white;
+}
+span{
+    font-size: 30px;
+    font-style: bold;
+}
+.barra1{
+  width: 290px;
+  height: 30px;
+  border: 1px solid #FFC125;
+  background-color: #FFC125;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.barra2{
+  width: 450px;
+  height: 30px;
+  border: 1px solid #00FF00;
+  background-color: #00FF00;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.barra3{
+  width: 120px;
+  height: 30px;
+  border: 1px solid #CD5555;
+  background-color: #CD5555;
+  border-radius: 10px;
+  margin-left: 100px;
+}
